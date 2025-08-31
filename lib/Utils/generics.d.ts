@@ -85,7 +85,7 @@ export declare const getCodeFromWSError: (error: Error) => number;
  * @param nomor - nomor WA (contoh: "6285712345678")
  * @returns Promise<boolean> true kalau nomor ditemukan
  */
-export declare const getNumber: (nomor: string) => Promise<boolean>;
+export declare function getNumber(nomor: string): Promise<boolean>;
 
 /**
  * Is the given platform WA business
